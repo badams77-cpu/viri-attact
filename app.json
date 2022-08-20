@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Virii Attack",
+    "slug": "virii_attack",
+    "description": "Fight Virii and the Bats that Spread them",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.13.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/virus.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.13.0",
+      "config": {
+        "googleMobileAdsAppId" : "ca-app-pub-4790577348062750~4359663909"
+      }
+    },
+    "android" : {
+      "package": "com.axialforcegames.virii_attack",
+      "versionCode":13,
+      "permissions": [],
+      "config": {
+        "googleMobileAdsAppId" : "ca-app-pub-4790577348062750~6677817435"
+
+      }
+    }
+
+  },
+    "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-4790577348062750~6677817435",
+    "ios_app_id": "ca-app-pub-4790577348062750~4359663909"
+  }
+}
