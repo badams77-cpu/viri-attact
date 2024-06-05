@@ -1,0 +1,1000 @@
+ 1354  ls -l
+ 1355  cd workspace
+ 1356  ls
+ 1357  cd BlogFinder
+ 1358  ls
+ 1359  cd bin
+ 1360  jar -cf ../../../feedfinder.jar BlogFinder
+ 1361  cd ..
+ 1362  ls
+ 1363  cp -r feedfinder.jar /usr/tomcat/lib
+ 1364  sudo cp -r feedfinder.jar /usr/tomcat/lib
+ 1365  sudo su - tomcat
+ 1366  ls
+ 1367  cd workspace
+ 1368  ls
+ 1369  cd SiteBridge
+ 1370  ls
+ 1371  cd bin
+ 1372  cd ../src
+ 1373  java -cp . SiteBridge/ListBound localhost 1099
+ 1374  sudo su - tomcat
+ 1375  sudo su - root
+ 1376  sudo su - distiller
+ 1377  w
+ 1378  ps -ef |grep tomcat
+ 1379  ps -ef |grep apache
+ 1380  sudo su - tomcat
+ 1381  ls
+ 1382  sudo su - distiller
+ 1383  sudo apt install git
+ 1384  sudo useradd --create-home --shell /bin/bash git
+ 1385  sudo su - git
+ 1386  sudo ls /var
+ 1387  PWD
+ 1388  ls
+ 1389  exit
+ 1390  sudo ls /var/git
+ 1391  sudo ls /var
+ 1392  sudo su - git
+ 1393  ls
+ 1394  exit
+ 1395  ls
+ 1396  sudo su - distiller
+ 1397  ls /home
+ 1398  sudo su - distiller
+ 1399  exit
+ 1400  ls
+ 1401  sudo su - distiller
+ 1402  ls -l
+ 1403  sudo su - distiller
+ 1404  exit
+ 1405  ps -ef |grep distiller
+ 1406  sudo su - engine
+ 1407  sudo su - distiller
+ 1408  ls
+ 1409  u
+ 1410  uptime
+ 1411  sudo su - distiller
+ 1412  ls
+ 1413  sudo su - distiller
+ 1414  cd /usr/webserv/
+ 1415  ls
+ 1416  cd acc
+ 1417  ls
+ 1418  more passwd
+ 1419  man htpasswd o
+ 1420  htpasswd passwd barry28
+ 1421  sudo htpasswd passwd barry28
+ 1422  cd ../../tomcat
+ 1423  ls -l
+ 1424  sudo su - tomcay
+ 1425  sudo su - tomcat
+ 1426  sudo su - distiller
+ 1427  ps -ef |grep tomcat
+ 1428  sudo su - distiller
+ 1429  exit
+ 1430  sudo su - distiller
+ 1431  exit
+ 1432  ls -l
+ 1433  sudo su - engine
+ 1434  sudo su - distiller
+ 1435  exit
+ 1436  sudo su - distiller
+ 1437  sudo su -
+ 1438  ls
+ 1439  sudo su - distiller
+ 1440  ls
+ 1441  sudo su - root
+ 1442  ls
+ 1443  date
+ 1444  L
+ 1445  ls -l
+ 1446  sudo su - distiller
+ 1447  apt-get insyall mysqlcient-dev
+ 1448  apt-get install mysqlcient-dev
+ 1449  sudo apt-get install mysqlcient-dev
+ 1450  sudo apt-get install mysqlclient-dev
+ 1451  sudo apt-get install libmysqlclient-dev
+ 1452  sudo su - distiller
+ 1453  sudo su - distiller
+ 1454  sudo su -
+ 1455  sudo apt update
+ 1456  apt upgrade
+ 1457  sudsudo su - distiller
+ 1458  sudo apachectl start
+ 1459  sudo su - tomcat
+ 1460  sudo su - distiller
+ 1461  sudo ps -ef | grep distller
+ 1462  sudo ps -ef | grep catalina
+ 1463  cd /home
+ 1464  ls
+ 1465  cd tomcat
+ 1466  ls
+ 1467  cd bin
+ 1468  ls
+ 1469  exit
+ 1470  sudo su - tomcat
+ 1471  sudo groupadd docker
+ 1472  ls
+ 1473  vi presearch
+ 1474  sudo usermod -aG docker $USER
+ 1475  sudo useradd presearch
+ 1476  ls
+ 1477  ls pre*
+ 1478  ls /home/presaerch
+ 1479  ls /home/presearch
+ 1480  ls -l /home
+ 1481  sudo useradd -d /home/presearch presearch
+ 1482  sudo useradd -d /home/pre_search presearch
+ 1483  sudo useradd -d /home/presearch preSearch
+ 1484  ls
+ 1485  cp presearch /home/presearch
+ 1486  sudo cp presearch /home/presearch
+ 1487  sudo usermod -aG docker pre_search
+ 1488  sudo usermod -aG docker preSearch
+ 1489  sudo su - presearch
+ 1490  sudo su - preSearch
+ 1491  ls /home
+ 1492  mkdir preSearch
+ 1493  chown preSearch preSearch
+ 1494  sudo chown preSearch preSearch
+ 1495  ls
+ 1496  cd /home
+ 1497  ls
+ 1498  mkdir preSearcj
+ 1499  mkdir preSearchj
+ 1500  exit
+ 1501  sudo usermod -aG docker preSearch
+ 1502  sudo su - preSearch
+ 1503  cd /home
+ 1504  ls
+ 1505  ls -l
+ 1506  sudo mkdir preSearch
+ 1507  ls
+ 1508  mv presearch docPreSearch
+ 1509  sudo mv presearch docPreSearch
+ 1510  mkdir presearch
+ 1511  sudo mkdir presearch
+ 1512  sudo chmod presearch preseach
+ 1513  sudo chmown presearch preseach
+ 1514  sudo chown presearch preseach
+ 1515  sudo chown presearch presearch
+ 1516  ls
+ 1517  sudo mv docPreSearch presearch
+ 1518  sudo chown preSearch presearch/docPreSearch
+ 1519  sudo usermod -aG docker preSearch
+ 1520  sudo su - presearch
+ 1521  sudo chmod 755 preSearch/docPreSearch
+ 1522  ls
+ 1523  sudo chmod 755 presearch/docPreSearch
+ 1524  sudo su - preSearch
+ 1525  docker
+ 1526  apt install docker.io
+ 1527  sudo apt install docker.io
+ 1528  ls -lk
+ 1529  cd presarch
+ 1530  cd presearch
+ 1531  ls
+ 1532  ls -l
+ 1533  sudo vi docPreSearch
+ 1534  ls -kl
+ 1535  ls -l
+ 1536  sudo su - tomcayt
+ 1537  sudo su - tomcat
+ 1538  sudo su - distiller
+ 1539  cd /usr/webserv/ww
+ 1540  cd /usr/webserv/www
+ 1541  ls -l
+ 1542  cd WEB-INF
+ 1543  ls
+ 1544  ps -ef |grep Finder
+ 1545  cd classes
+ 1546  ls -l
+ 1547  cd BlogFinder
+ 1548  ls -l
+ 1549  sudo su - distiller
+ 1550  apt list --upgradable
+ 1551  sudo apt upgrade
+ 1552  exit
+ 1553  ls
+ 1554  ls *csr
+ 1555  ls
+ 1556  openssl req -new -newkey rsa:2048 -nodes -keyout server2022.key -out server2022.csr
+ 1557  ls
+ 1558  less ser*
+ 1559  openssl req -new -newkey rsa:2048 -nodes -keyout fd_feeddistiller_com.pem -out fd_feeddistiller_com.csr -subj /CN=fd.feeddistiller.com; cat fd_feeddistiller_com.csr
+ 1560  ls -l *.crt
+ 1561  sudo su - 
+ 1562  apt update
+ 1563  sudo apt update
+ 1564  apt upgrade
+ 1565  sudo apt upgrade
+ 1566  sudo shutdown -r now
+ 1567  sudo apachectl start
+ 1568  sudo 'systemctl status apache2
+ 1569  sudo 'systemctl status apache2'
+ 1570  sudo systemctl status apache2
+ 1571  sudo su - tomcat
+ 1572  sudo su - distiller
+ 1573  cd /home/distiller
+ 1574  ls
+ 1575  sudo ./rmiregistry
+ 1576  sudo /home/distiller/rmiregistry
+ 1577  less rmi*
+ 1578  cd rmi*
+ 1579  ls
+ 1580  ls -l
+ 1581  cd ..
+ 1582  ls
+ 1583  mopre restartall
+ 1584  exit
+ 1585  sudo su - distiller
+ 1586  exit
+ 1587  ls
+ 1588  sudo su -
+ 1589  cd /etc/apache2
+ 1590  cd sites-e*
+ 1591  vi 0*
+ 1592  sudo su - 
+ 1593  l
+ 1594  s
+ 1595  ssh-keygen -b 4096
+ 1596  ls
+ 1597  cd  .ssh
+ 1598  ls
+ 1599  ls -l
+ 1600  ls /mnt
+ 1601  cd /mnt/0
+ 1602  ls
+ 1603  cd /mnt
+ 1604  ls 
+ 1605  ls >j
+ 1606  ls >./j
+ 1607  cd 
+ 1608  ls /mnt >j
+ 1609  vi j
+ 1610  cat j j
+ 1611  vi j
+ 1612  cat j j
+ 1613  perl
+ 1614  echo "   " <j
+ 1615  echo "             " <j
+ 1616  cat j > echo "    $!"
+ 1617  ls /mnt >j
+ 1618  cat j > echo "    $!"
+ 1619  cat j > echo "    $1"
+ 1620  cat j 
+ 1621  cat j |echo "    $1"
+ 1622  ls /mnt/usb0
+ 1623  mkdir /mnt/usrb
+ 1624  sudo mkdir /usrb
+ 1625  sudo mkdir /usb
+ 1626  ls /media
+ 1627  cat /mnt | echo "    $1"
+ 1628  kls /mnt | echo "    $1"
+ 1629  ls /mnt | echo "    $1"
+ 1630  mount
+ 1631  mount | grep usb
+ 1632  fdisk
+ 1633  usb-devices
+ 1634  usb-devices | less
+ 1635  usbmount
+ 1636  ls
+ 1637  cd /mnt
+ 1638  cd *
+ 1639  ls
+ 1640  ls -l
+ 1641  cd /
+ 1642  ls
+ 1643  cd media
+ 1644  ls
+ 1645  fdisk -l
+ 1646  sudo fdisk -l
+ 1647  ls
+ 1648  sudo mount /dev/sdc1 /mnt/usb
+ 1649  ls
+ 1650  ls /mnt/usb
+ 1651  cd 
+ 1652  cd .ssh
+ 1653  ls -l
+ 1654  cp id_rsa.pub /mnt/usb
+ 1655  sudo cp id_rsa.pub /mnt/usb
+ 1656  umount /mnt/usb
+ 1657  sudo umount /mnt/usb
+ 1658  ls
+ 1659  sudo su - distiller
+ 1660  ls
+ 1661  sudo cp workspace/DistillerEngine/bin/DistillerEngine /home/distiller/engine/bin/DistillerEngine
+ 1662  sudo cp workspace/DistillerEngine/bin/DistillerEngine/* /home/distiller/engine/bin/DistillerEngine
+ 1663  sudo su - distiller
+ 1664  history
+ 1665  sudo cp workspace/DistillerEngine/bin/DistillerEngine/* /home/distiller/engine/bin/DistillerEngine
+ 1666  sudo su - distiller
+ 1667  history
+ 1668  sudo cp workspace/DistillerEngine/bin/DistillerEngine/* /home/distiller/engine/bin/DistillerEngine
+ 1669  sudo su - distiller
+ 1670  ls
+ 1671  cp DistillerTwitter.class /home/distiller
+ 1672  ls D*
+ 1673  cp DistillerTweeter.class /home/distiller
+ 1674  sudo cp DistillerTweeter.class /home/distiller
+ 1675  sudo su - distiller
+ 1676  ls
+ 1677  ls d*
+ 1678  cp distiller.jar /home/distiller/tweeter
+ 1679  sudo cp distiller.jar /home/distiller/tweeter
+ 1680  sudo su - distiller
+ 1681  sudo cp DistillerTweeter.class /home/distiller/DistillerTweeter
+ 1682  sudo su - distiller
+ 1683  history
+ 1684  sudo cp DistillerTweeter.class /home/distiller/DistillerTweeter
+ 1685  sudo su - distiller
+ 1686  sudo su -
+ 1687  sudo su - distiller
+ 1688  ls
+ 1689  history
+ 1690  sudo cp DistillerTweeter.class /home/distiller/DistillerTweeter
+ 1691  sudo su - distiller
+ 1692  ls
+ 1693  history
+ 1694  sudo cp DistillerTweeter.class /home/distiller/DistillerTweeter.class
+ 1695  sudo su - distiller
+ 1696  history
+ 1697  sudo cp DistillerTweeter.class /home/distiller/DistillerTweeter.class
+ 1698  sudo su - distiller
+ 1699  ls
+ 1700  history
+ 1701  ! 2025
+ 1702  sudo cp DistillerTweeter.class /home/distiller/DistillerTweeter.class
+ 1703  sudo su - distiller
+ 1704  history
+ 1705  sudo cp DistillerTweeter.class /home/distiller/DistillerTweeter.class
+ 1706  sudo su - distiller
+ 1707  ls
+ 1708  ls d*
+ 1709  ls -l d*
+ 1710  sudo cp distiller.jar /home/distiller/tweeter/libs
+ 1711  sudo cp DistillerTweeter.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1712  sudo su - distiller
+ 1713  history
+ 1714  ls
+ 1715  cd workspace
+ 1716  cd DistillerEngine/bin
+ 1717  ls
+ 1718  cd Di*
+ 1719  ls
+ 1720  ls -l
+ 1721  cd DistillerEngine
+ 1722  ls -l
+ 1723  sudo cp *.class /home/distiller/engine/bin/DistillerEngine
+ 1724  history
+ 1725  cd ../../..
+ 1726  ls
+ 1727  cd ..
+ 1728  ls
+ 1729  sudo cp distiller.jar /home/distiller/engine/libs
+ 1730  sudo su - distiller
+ 1731  ls
+ 1732  cd workspace/
+ 1733  cd Distiller
+ 1734  ls
+ 1735  cd bin
+ 1736  ls
+ 1737  cd D*
+ 1738  ls
+ 1739  sudo cp Article.class /home/distiller/engine/bin/Distiller
+ 1740  sudo rm /home/distiller/engine/libs
+ 1741  sudo su - distiller
+ 1742  history
+ 1743  cd ../..
+ 1744  cd ..
+ 1745  cd DistillerEngine
+ 1746  cd bin
+ 1747  cd DistillerEngine
+ 1748  sudo cp *.class /home/distiller/engine/bin/DistillerEngine
+ 1749  sudo su - distiller
+ 1750  ls
+ 1751  sudo su - distiller
+ 1752  ls
+ 1753  cd workspace
+ 1754  ls -l
+ 1755  cd DistilelrEngine
+ 1756  cd DistillerEngine
+ 1757  cd bin
+ 1758  cd DistillerEngine
+ 1759  ls
+ 1760  cp *.class /home/distiller/engine/bin/DistillerEngine
+ 1761  sudo cp *.class /home/distiller/engine/bin/DistillerEngine
+ 1762  ls
+ 1763  sudo cp *.class /home/distiller/engine/bin/DistillerEngine
+ 1764  ls -l  /home/distiller/engine/bin/DistillerEngine
+ 1765  ls -l  /home/distiller/engine/bin
+ 1766  ls
+ 1767  sudo su - distiller
+ 1768  history
+ 1769  pwd
+ 1770  cd workspace/DistillerEngine/bin
+ 1771  ls -l
+ 1772  cd D*
+ 1773  cd DistillerEngine
+ 1774  sudo cp *.class /home/distiller/engine/bin/DistillerEngine
+ 1775  sudo su - distiller
+ 1776  ls
+ 1777  pwd
+ 1778  cd workspace/DistillerEngine/bin/DistillerEngine
+ 1779  ls -l
+ 1780  history
+ 1781  sudo cp *.class /home/distiller/engine/bin/DistillerEngine
+ 1782  sudo su - distiller
+ 1783  cd workspace/DistillerEngine/bin/DistillerEngine
+ 1784  ls
+ 1785  cp *.class /home/distiiller/engine/bin/DistillerEngine
+ 1786  sudo cp *.class /home/distiller/engine/bin/DistillerEngine
+ 1787  sudo su - distiller
+ 1788  ls
+ 1789  history
+ 1790  sudo cp *.class /home/distiller/engine/bin/DistillerEngine
+ 1791  sudo su - distiller
+ 1792  ls
+ 1793  cd ../
+ 1794  ls
+ 1795  cd ..
+ 1796  ls
+ 1797  cd ..
+ 1798  ls
+ 1799  cd Distiller
+ 1800  ls
+ 1801  ls -l
+ 1802  cd bin
+ 1803  ls
+ 1804  ls -l
+ 1805  Rempass7!
+ 1806  ls
+ 1807  cd Dis*
+ 1808  ls
+ 1809  ls -l
+ 1810  sudo cp *.class /home/distiller/engine/bin/Distiller
+ 1811  cd ../../..
+ 1812  cd DistillerEngine/bin/DistillerEngine
+ 1813  ls
+ 1814  sudo cp *.class /home/distiller/engine/bin/DistillerEngine
+ 1815  sudo su - distiller
+ 1816  cd ../../..
+ 1817  ls
+ 1818  cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1819  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1820  history
+ 1821  sudo su - distiller
+ 1822  ping 192.168.1.1
+ 1823  apt list --upgradable
+ 1824  apt upgrade
+ 1825  man apt
+ 1826  sudo apt update
+ 1827  apt upgrade
+ 1828  sudo apt upgrade
+ 1829  sudo su - root
+ 1830  sudo su - root
+ 1831  sudo su - tomcat
+ 1832  sudo su - root
+ 1833  sudo su - distiller
+ 1834  sudo su - root
+ 1835  sudo su - tomcat
+ 1836  ls
+ 1837  cd sudo su - distiller
+ 1838  sudo su - distiller
+ 1839  ls
+ 1840  sudo su - root
+ 1841  cd workspace
+ 1842  ls
+ 1843  sudo cp *.class /home/distiller/tweeter/bin
+ 1844  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1845  sudo cp *.class /home/distiller/tweeter/bin
+ 1846  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1847  sudo cp *.class /home/distiller/tweeter/bin
+ 1848  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1849  sudo cp *.class /home/distiller/tweeter/bin
+ 1850  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1851  sudo cp *.class /home/distiller/tweeter/bin
+ 1852  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1853  sudo cp *.class /home/distiller/tweeter/bin
+ 1854  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1855  sudo cp *.class /home/distiller/tweeter/bin
+ 1856  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1857  sudo cp *.class /home/distiller/tweeter/bin
+ 1858  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1859  sudo cp *.class /home/distiller/tweeter/bin
+ 1860  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1861  sudo cp *.class /home/distiller/tweeter/bin
+ 1862  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1863  sudo cp *.class /home/distiller/tweeter/bin
+ 1864  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1865  sudo su -
+ 1866  sudo su - distiller
+ 1867  ls
+ 1868  cd workspace
+ 1869  ls
+ 1870  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1871  ls
+ 1872  cd ..
+ 1873  ls
+ 1874  sudo cp twi*.jar /home/distiller/tweeter
+ 1875  sudo su - distiller
+ 1876  mkdir twlib
+ 1877  PATH=$PATH:/c/maven/apache-maven-3.8.5/bin
+ 1878  export PATH
+ 1879  mvn dependency:copy-dependencies
+ 1880  ls $PATH#
+ 1881  export ATH=$PATH:/c/maven/apache-maven-3.8.5/bin
+ 1882  mvn dependency:copy-dependencies
+ 1883  sudo apt install maven
+ 1884  ls
+ 1885  cd twib
+ 1886  cd twlib
+ 1887  ls
+ 1888  sudo cp -r *.jar /home/distiller/tweeter/bin
+ 1889  sudo cp -r *.jar /home/distiller/tweeter/lib
+ 1890  sudo cp -r *.jar /home/distiller/tweeter/libs
+ 1891  sudo su - distiller
+ 1892  cd twlib
+ 1893  ls
+ 1894  rm *sdk-1.1.3.jar
+ 1895  history
+ 1896  sudo cp -r *.jar /home/distiller/tweeter/libs
+ 1897  sudo su - distiller
+ 1898  cd ..
+ 1899  ls
+ 1900  cd workspace
+ 1901  ls
+ 1902  cp *.class /home/distiller/tweeter/bin
+ 1903  sudo cp *.class /home/distiller/tweeter/bin
+ 1904  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1905  sudo su - distiller
+ 1906  history
+ 1907  sudo cp *.class /home/distiller/tweeter/bin
+ 1908  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1909  sudo su - distiller
+ 1910  history
+ 1911  sudo cp *.class /home/distiller/tweeter/bin
+ 1912  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1913  sudo su - distiller
+ 1914  histoory
+ 1915  history
+ 1916  sudo cp *.class /home/distiller/tweeter/bin
+ 1917  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1918  sudo su - distiller
+ 1919  history
+ 1920  sudo cp *.class /home/distiller/tweeter/bin
+ 1921  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1922  sudo su - distiller
+ 1923  ls
+ 1924  history
+ 1925  sudo cp *.class /home/distiller/tweeter/bin
+ 1926  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1927  sudo su - distiller
+ 1928  sudo cp *.class /home/distiller/tweeter/bin
+ 1929  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1930  sudo su - distiller
+ 1931  sudo cp *.class /home/distiller/tweeter/bin
+ 1932  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1933  sudo su - distiller
+ 1934  ls
+ 1935  sudo cp *.class /home/distiller/tweeter/bin
+ 1936  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1937  sudo su - distiller
+ 1938  cd /usr/webserv/www
+ 1939  ls
+ 1940  cp demo.jsp twitter.jsp
+ 1941  sudo cp demo.jsp twitter.jsp
+ 1942  ls -l
+ 1943  cd
+ 1944  cd workspace
+ 1945  sudo cp *.class /home/distiller/tweeter/bin
+ 1946  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1947  sudo su - distiller
+ 1948  ls -l
+ 1949  sudo su - root
+ 1950  cd workspace
+ 1951  ls
+ 1952  history
+ 1953  sudo cp *.class /home/distiller/tweeter/bin
+ 1954  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1955  ls /tmp
+ 1956  ls -l /tmp/twiter_url
+ 1957  ls -l /tmp/twitter_url
+ 1958  less /tmp/twitter_url
+ 1959  ls
+ 1960  history
+ 1961  sudo cp *.class /home/distiller/tweeter/bin
+ 1962  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1963  sudo su - distiller
+ 1964  sudo su - root
+ 1965  sudo su - distiller
+ 1966  ls
+ 1967  cd workspace
+ 1968  ls
+ 1969  ls -l
+ 1970  sudo cp *.class /home/distiller/tweeter/bin
+ 1971  sudo su - distiller
+ 1972  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1973  sudo su - distiller
+ 1974  ls -l
+ 1975  rm fdrsa
+ 1976  sudo cp *.class /home/distiller/bin/DistillerTweeter
+ 1977  sudo cp *.class /home/distiller/tweeter/bin/DistillerTweeter
+ 1978  sudo cp *.class /home/distiller/tweeter/bin
+ 1979  sudo su - distiller
+ 1980  cd /tmp
+ 1981  ls
+ 1982  rm -r twitter_url
+ 1983  sudo rm -r twitter_url
+ 1984  sudo su - distiller
+ 1985  sudo su - tomcat
+ 1986  sudo su - distiller
+ 1987  sudo su - twitter
+ 1988  sudo su - distiller
+ 1989  sudo su - distilleer
+ 1990  sudo su - distiller
+ 1991  exit
+ 1992  apt-get install texlive-detex
+ 1993  sudo apt-get install texlive-detex
+ 1994  sudo apt install texlive-extra-utils
+ 1995  ls
+ 1996  detex wind_evap.tex
+ 1997  detex wind_evap.tex >wind_evap.txt
+ 1998  exit
+ 1999  ls
+ 2000  apt-get install nodejs
+ 2001  sudo apt-get install nodejs
+ 2002  npm install expo
+ 2003  sudo apt install npm
+ 2004  sudo npm i -g expo-cli
+ 2005  sudo npm i -g eas-cli
+ 2006  eas login
+ 2007  ls
+ 2008  cd game1
+ 2009  eas login
+ 2010  eas ?
+ 2011  eas --help login
+ 2012  sudo vi /usr/local/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js
+ 2013  eas login
+ 2014  sudo vi /usr/local/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js
+ 2015  eas login
+ 2016  node -version
+ 2017  node -v
+ 2018  sudo apt update && sudo apt upgradesudo apt update && sudo apt upgrade
+ 2019  curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+ 2020  curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+ 2021  sudo apt-get install -y nodejs
+ 2022  node -v
+ 2023  npm -v
+ 2024  eas login
+ 2025  eas build -p android --profile preview --local
+ 2026  apt-get install yarn
+ 2027  sudo apt-get install yarn
+ 2028  eas build -p android --profile preview --local
+ 2029  npm install react-native-fast-image@8.5.11
+ 2030  npm install react-native-fast-image
+ 2031  cd node-modules
+ 2032  ls
+ 2033  cd node_modules
+ 2034  cd react-native-fast-image
+ 2035  ls
+ 2036  vi package.json
+ 2037  cd ..
+ 2038  eas build -p android --profile preview --local
+ 2039  vi .npmrc
+ 2040  eas build -p android --profile preview --local
+ 2041  sudo apt update && sudo apt install android-sdk
+ 2042  echo $ANDROID_SDK_ROOT
+ 2043  ls /usr/lib/android-sdk
+ 2044  cd ..
+ 2045  vi ,profile
+ 2046  vi .profile
+ 2047  export ANDROID_SDK_ROOT="/usr/local/android_sdk"
+ 2048  cd game1
+ 2049  eas build -p android --profile preview --local
+ 2050  export ANDROID_SDK_ROOT="/usr/local/android_sdk"
+ 2051  echo $ANDROID_SDK_ROOT
+ 2052  ls
+ 2053  pwd
+ 2054  cd android
+ 2055  ls -a
+ 2056  pwd
+ 2057  mkdir android
+ 2058  cd android
+ 2059  ls
+ 2060  vi local.properties
+ 2061  cd ..
+ 2062  eas build -p android --profile preview --local
+ 2063  cd ../.profile
+ 2064  vi ../.profile
+ 2065  export ANDROID_HOME="/usr/local/android_sdk"
+ 2066  eas build -p android --profile preview --local
+ 2067  vi /tmp/badams/eas-build-local-nodejs/67d7bc6f-3c06-4a1e-9a0d-e8abe20f5571/build/android/local.properties
+ 2068  sudo vi /tmp/badams/eas-build-local-nodejs/67d7bc6f-3c06-4a1e-9a0d-e8abe20f5571/build/android/local.properties
+ 2069  ls -l /tmp/badams/eas-build-local-nodejs/67d7bc6f-3c06-4a1e-9a0d-e8abe20f5571/build/android/local.properties
+ 2070  ls
+ 2071  which java
+ 2072  ls /usr/lib
+ 2073  ls /usr/lib/android_sdk
+ 2074  ls /usr/lib
+ 2075  ls
+ 2076  vi ../.profile
+ 2077  export ANDROID_SDK_ROOT="/usr/local/android-sdk"
+ 2078  export ANDROID_HOME="/usr/local/android-sdk"
+ 2079  ls $ANDROID_SDK_ROOT
+ 2080  vi ../.profile
+ 2081  export ANDROID_SDK_ROOT="/usr/lib/android-sdk"
+ 2082  export ANDROID_HOME="/usr/lib/android-sdk"
+ 2083  ls $ANDROID_SDK_ROOT
+ 2084  eas build -p android --profile preview --local
+ 2085  cd /usr/local/android-sdk
+ 2086  cd /usr/lib/android-sdk
+ 2087  ls
+ 2088  cd tools
+ 2089  ls
+ 2090  cd bin
+ 2091  ls
+ 2092  ./sdkmanager --licenses
+ 2093  wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
+ 2094* sudo wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zipls
+ 2095  ls -l
+ 2096  sudo unzip sdk-tools-linux-3859397.zip
+ 2097  ls
+ 2098  cd tools
+ 2099  ls
+ 2100  cp -r * ..
+ 2101  sudo cp -r * ..
+ 2102  ls
+ 2103  cd ~/Library/Android/sdk/tools && ./android
+ 2104  ls -l
+ 2105  sudo chmod 755 anroid monitor emulator
+ 2106  sudo chmod 755 android monitor emulator
+ 2107  sudo ./android
+ 2108  sudo ./android update sdk
+ 2109  java -version
+ 2110  ls
+ 2111  less android
+ 2112  sudo vi android
+ 2113  export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
+ 2114  vi ~/.profile
+ 2115  sudo ./android update sdk
+ 2116  ls tools/bin
+ 2117  ls
+ 2118  cd ..
+ 2119  ls
+ 2120  ls bin
+ 2121  vi sdk*
+ 2122  ls
+ 2123  cd ..
+ 2124  ls
+ 2125  cd bin
+ 2126  ls
+ 2127  cd tools
+ 2128  ls
+ 2129  cd bin
+ 2130  ls
+ 2131  ls -l
+ 2132  vi sdkmanager
+ 2133  sudo vi sdkmanager
+ 2134  ls
+ 2135  cp * ../..
+ 2136  sudo cp * ../..
+ 2137  cd ..
+ 2138  ls
+ 2139  ./android update-sdk
+ 2140  sudo ./android update-sdk
+ 2141  sudo ./android update sdk
+ 2142  ls
+ 2143  mv android ..
+ 2144  sudo mv android ..
+ 2145  cd ..
+ 2146  sudo ./android update sdk
+ 2147  apt-get unstall openjdk-14
+ 2148  apt-get uninstall openjdk-14
+ 2149  apt-get remove openjdk-14
+ 2150  sudo apt-get remove openjdk-14
+ 2151  sudo apt-get remove openjdk
+ 2152  java -version
+ 2153  sudo apt-get autoremove openjdk-14
+ 2154  sudo apt-get autoremove openjdk-jre
+ 2155  apt-get --list >a
+ 2156  sudo apt-get --list >a
+ 2157  sudo apt-get --list >./.a
+ 2158  sudo apt-get --list >~/.a
+ 2159  sudo apt-get -l >~/.a
+ 2160  apt list >~/a
+ 2161  less ~/a
+ 2162  apt list --installed >~/a
+ 2163  less ~/a
+ 2164  apt-get autoremove 
+ 2165  sudo apt-get autoremove openjdk-jdk-14
+ 2166  less ~/a
+ 2167  sudo apt-get autoremove openjdk-14-jdk-headless
+ 2168  sudo apt-get autoremove openjdk-14-jre-headless
+ 2169  sudo apt-get autoremove openjdk-11-jre-headless
+ 2170  sudo apt-get install openjdk-11-jdk-headless
+ 2171  ls
+ 2172  ls -l
+ 2173  ls ..
+ 2174  cd ..
+ 2175  wget https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip
+ 2176  sudo wget https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip
+ 2177  ls -l
+ 2178  sudo commandlinetools-linux-8512546_latest.zipunzip 
+ 2179  sudo commandlinetools-linux-8512546_latest.zip
+ 2180  sudo unzip commandlinetools-linux-8512546_latest.zip
+ 2181  ls
+ 2182  cd cmdline-tools
+ 2183  ls
+ 2184  cd bib
+ 2185  cd bin
+ 2186  ls
+ 2187  ./sdkmanager
+ 2188  sudo apt-get autoremove openjdk-11-jdk-headless
+ 2189  sudo apt-get install openjdk-10-jdk-headless
+ 2190  sudo apt-get install openjdk-10-jdk
+ 2191  sudo add-apt-repository ppa:linuxuprising/java
+ 2192  jave -version
+ 2193  apt-get-install openjdk-8-jre-headless
+ 2194  apt-get install openjdk-8-jre-headless
+ 2195  sudo apt-get install openjdk-8-jre-headless
+ 2196  history
+ 2197  ./sdkmanager
+ 2198  which $JAVA
+ 2199  java -version
+ 2200  ls
+ 2201  ./sdkmanager
+ 2202  export JAVA_OPTS=""
+ 2203  ./sdkmanager
+ 2204* 
+ 2205  ./sdkmanager update --sdk_root=/usr/lib/android-sdk
+ 2206  ./sdkmanager --update --sdk_root=/usr/lib/android-sdk
+ 2207  sudo ./sdkmanager --update --sdk_root=/usr/lib/android-sdk
+ 2208  ls
+ 2209  cd
+ 2210  ls game1
+ 2211  history >a
+ 2212  grep eas a
+ 2213  eas build -p android --profile preview --local
+ 2214  pwdf
+ 2215  pwd
+ 2216  cd game1
+ 2217  eas build -p android --profile preview --local
+ 2218  apt-get install openjdk-11-jdk-headless
+ 2219  sudo apt-get install openjdk-11-jdk-headless
+ 2220  java -version
+ 2221  eas build -p android --profile preview --local
+ 2222  sudo eas build -p android --profile preview --local
+ 2223  npm install -g npm@8.18.0
+ 2224  sudo npm install -g npm@8.18.0
+ 2225  cp -r /usr/lib/android-sdk ../android_sdk
+ 2226  export ANDROID_SDK_ROOT=/home/badams/android_dsk
+ 2227  sudo eas build -p android --profile preview --local
+ 2228  eas build -p android --profile preview --local
+ 2229  export ANDROID_HOME=/home/badams/android_dsk
+ 2230  ls $ANDROOD_HOME
+ 2231  ls $ANDROID_HOME
+ 2232  ls /home/badams
+ 2233  cd ..
+ 2234  ls
+ 2235  ls -l
+ 2236  cd android_dsk
+ 2237  cd android_sdk
+ 2238  ls
+ 2239  cd ..
+ 2240  ls
+ 2241  sudo apt-get install android-sdk
+ 2242  ls
+ 2243  history
+ 2244* cvcp -r /usr/lib/android-sdk ../android_sdk
+ 2245  cd game1
+ 2246  cp -r /usr/lib/android-sdk ../android_sdk
+ 2247  eas build -p android --profile preview --local
+ 2248  ls
+ 2249  echo $ANDROID_SDK_ROOT
+ 2250  export ANDROID_SDK_ROOT=/home/badams/android_sdk
+ 2251  eas build -p android --profile preview --local
+ 2252  vi  :expo-error-recovery:generateReleaseRFile
+ 2253  vi node_modules/react-native-google-mobile-ads/android/src/main/AndroidManifest.xml
+ 2254  eas build -p android --profile preview --local
+ 2255  ls
+ 2256  history
+ 2257  vi node_modules/react-native-google-mobile-ads/android/src/main/AndroidManifest.xml
+ 2258  eas build -p android --profile preview --local --clear-cache
+ 2259  npm install :react-native-google-mobile-ads
+ 2260  npm install react-native-google-mobile-ads
+ 2261  npm install --force
+ 2262  eas build -p android --profile preview --local --clear-cache
+ 2263  eas -help
+ 2264  eas --help
+ 2265  eas --help build
+ 2266  eas build -p android --profile preview --local --clear-cache --skip-project-configuration
+ 2267  vi gradle.properties
+ 2268  eas build -p android --profile preview --local --clear-cache
+ 2269  ls
+ 2270  cd android
+ 2271  ls
+ 2272  vi l*
+ 2273  expo install react-native-mobile-ads
+ 2274  npx expo install react-native-mobile-ads
+ 2275  npx expo install react-native-google-ads
+ 2276  npx expo install react-native-google-mobile-ads
+ 2277  eas build -p android --profile preview --local --clear-cache
+ 2278  ls
+ 2279  expo doctor
+ 2280  cd ..
+ 2281  expo doctor
+ 2282  eas -v
+ 2283  grep -r DELAY_APP_MEASUREMENT_INIT
+ 2284  vi node_modules/react-native-google-mobile-ads/android/src/main/AndroidManifest.xml
+ 2285  eas build -p android --profile preview --local --clear-cache
+ 2286  ls
+ 2287  vi app.json
+ 2288  eas build -p android --profile preview --clear-cache
+ 2289  grep -r package="com.axialforce" 
+ 2290  less app.json
+ 2291  cd node*
+ 2292  cd expo(
+ 2293  cd expo*
+ 2294  ls
+ 2295  cd @expo
+ 2296  ls
+ 2297  cd config
+ 2298  ls
+ 2299  cd ..
+ 2300  cd config-plugibs
+ 2301  cd config-plugins
+ 2302  ls
+ 2303  cd build
+ 2304  ls
+ 2305  cd a*
+ 2306  ls
+ 2307  grep DELAY *
+ 2308  vi Manfiest.js
+ 2309  vi Manifest.js
+ 2310  ls
+ 2311  ls *.map
+ 2312  ls Goo*
+ 2313  ls
+ 2314  vo GoogleServices.js
+ 2315  vi GoogleServices.js
+ 2316  ls
+ 2317  cd ..
+ 2318  ls
+ 2319  cd ..
+ 2320  ls
+ 2321  cd build
+ 2322  ls
+ 2323  cd a*
+ 2324  ls
+ 2325  cd ..
+ 2326  ls
+ 2327  cd plugins
+ 2328  ls
+ 2329  grep DELAY *
+ 2330  cd ~/game1
+ 2331  ls
+ 2332  cd android/app/src/main
+ 2333  ls -a
+ 2334  eas update:configure
+ 2335  ls
+ 2336  vi app.json
+ 2337  expo config-plugins
+ 2338  ls
+ 2339  cd ..
+ 2340  ls
+ 2341  cd game1
+ 2342  kls
+ 2343  ls
+ 2344  cd com*
+ 2345  ls
+ 2346  vi Con*
+ 2347  cd ..
+ 2348  ls
+ 2349  rm -r node_modules
+ 2350  npm install
+ 2351  history
+ 2352  eas build -p android --profile preview --local --clear-cache
+ 2353  history >a

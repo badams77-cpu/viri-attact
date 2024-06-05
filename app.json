@@ -17,7 +17,8 @@
       "backgroundColor": "#000000"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/3acf4e60-c28e-413a-aa16-3a86191dd232"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -26,21 +27,23 @@
       "supportsTablet": true,
       "buildNumber": "1.13.0",
       "config": {
-        "googleMobileAdsAppId" : "ca-app-pub-4790577348062750~4359663909"
-      }
+        "googleMobileAdsAppId": "ca-app-pub-4790577348062750~4359663909"
+      },
+      "bundleIdentifier": "14"
     },
-    "android" : {
+    "android": {
       "package": "com.axialforcegames.virii_attack",
-      "versionCode":13,
+      "versionCode": 13,
       "permissions": [],
       "config": {
-        "googleMobileAdsAppId" : "ca-app-pub-4790577348062750~6677817435"
-
+        "googleMobileAdsAppId": "ca-app-pub-4790577348062750~6677817435"
       }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
-
   },
-    "react-native-google-mobile-ads": {
+  "react-native-google-mobile-ads": {
     "android_app_id": "ca-app-pub-4790577348062750~6677817435",
     "ios_app_id": "ca-app-pub-4790577348062750~4359663909"
   }
