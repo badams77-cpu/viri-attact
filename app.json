@@ -8,7 +8,10 @@
       "android",
       "web"
     ],
-    "version": "1.13.0",
+    "runtimeVersion": {
+"policy" : "1.15.0"
+},
+    "version": "1.15.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -25,22 +28,47 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1.13.0",
+      "buildNumber": "1.15.0",
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-4790577348062750~4359663909"
       },
-      "bundleIdentifier": "14"
+      "bundleIdentifier": "16"
     },
+
+
+
+
+
+        "expo-build-properties":
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "14.0"
+          }
+        },
+
+
+
     "android": {
+
       "package": "com.axialforcegames.virii_attack",
-      "versionCode": 13,
+      "versionCode": 15,
       "permissions": [],
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-4790577348062750~6677817435"
       }
     },
     "runtimeVersion": {
-      "policy": "sdkVersion"
+      "policy": "exposdk:51.0.0"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3acf4e60-c28e-413a-aa16-3a86191dd232"
+      }
     }
   },
   "react-native-google-mobile-ads": {
